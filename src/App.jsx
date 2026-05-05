@@ -1,10 +1,9 @@
 import "./App.css";
+import Body from "./Components/Body";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="bg-blue-500 text-white p-4">Welcome to React!</h1>
-    </div>
+    <Body />
   );
 }
 
