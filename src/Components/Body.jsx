@@ -5,12 +5,14 @@ import Login from './Login';
 
 const Body = () => {
     return (
-        <div>
+        <div
+            className="justify-center text-center bg-[url('https://www.cantechletter.com/wp-content/uploads/Netflix.jpg')] bg-cover bg-center min-h-screen"
+        >
             <Header />
             <Login />
             <div>Body Page</div>
             <Footer />
-        </div>  
+        </div>
     );
 }
 
