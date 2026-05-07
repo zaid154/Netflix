@@ -1,13 +1,13 @@
 import Logo from '../assets/logo.png';
 const Header = () => {
     return (
-        <div className="flex justify-between items-center px-5">
+        <div className="flex justify-between items-center px-30 absolute top-0 left-0 w-full bg-gradient-to-b from-black to-transparent py-4">
 
-            <img className="h-25" src={Logo} alt="Logo" />
+            <img className="h-35" src={Logo} alt="Logo" />
 
-            <div className="flex gap-5 items-center">
+            <div className="flex gap-8 items-center">
 
-                <select className="bg-black text-white px-2 py-1 rounded border-1 p-5 border-white">
+                <select className="bg-black text-white px-4  py-1 rounded border-1 p-5 border-white">
                     <option>Hindi</option>
                     <option>English</option>
                 </select>
